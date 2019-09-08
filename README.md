@@ -103,3 +103,18 @@ Then the app should display an error message
 
 # Architecture
 ![Diagram](docs/EssentialFeed.png)
+
+# Model Specs
+
+## Feed Item
+
+|  Property    |   Type             |
+|--------------|--------------------|
+| id           | UUID               |
+|--------------|--------------------|
+| description  | String (optional)  |
+|--------------|--------------------|
+| location     | String (optional)  |
+|--------------|--------------------|
+| imageURL     | URL                |
+|--------------|--------------------|
