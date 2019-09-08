@@ -111,10 +111,6 @@ Then the app should display an error message
 |  Property    |   Type             |
 |--------------|--------------------|
 | id           | UUID               |
-|--------------|--------------------|
 | description  | String (optional)  |
-|--------------|--------------------|
 | location     | String (optional)  |
-|--------------|--------------------|
 | imageURL     | URL                |
-|--------------|--------------------|
