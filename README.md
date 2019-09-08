@@ -114,3 +114,36 @@ Then the app should display an error message
 | description  | String (optional)  |
 | location     | String (optional)  |
 | imageURL     | URL                |
+
+# Payload contract
+
+## `GET *url* (TBD)`
+
+### 200 RESPONSE
+
+```
+{
+	"items": [
+		{
+			"id": "a UUID",
+			"description": "a description",
+			"location": "a location",
+			"image": "https://a-image.url"
+		},
+		{
+			"id": "a UUID",
+			"description": "a description",
+			"image": "https://a-image.url"
+		},
+		{
+			"id": "a UUID",
+			"location": "a location",
+			"image": "https://a-image.url"
+		},
+		{
+			"id": "a UUID",
+			"image": "https://a-image.url"
+		}
+	]
+}
+```
